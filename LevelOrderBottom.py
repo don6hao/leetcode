@@ -40,7 +40,7 @@ class Solution:
 
     def levelOrderBottom(self, root):
         if None == root:
-            return None
+            return []
         resultList = []
         resultList.insert(0, [root.val])
         nodeList = []
